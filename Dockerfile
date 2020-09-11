@@ -67,8 +67,7 @@ apk del --no-network .build-deps; \
 \
 echo "memory_limit=1024M" >> /usr/local/etc/php/conf.d/php.ini; \
 echo "upload_max_filesize=1024M" >> /usr/local/etc/php/php.ini; \
-echo "post_max_size=1024M" >> /usr/local/etc/php/php.ini; \
-echo "post_max_size=1024M" >> /usr/local/etc/php/php.ini; \
+echo "post_max_size=1024M" >> /usr/local/etc/php/php.ini; 
 
 
 STOPSIGNAL SIGQUIT
